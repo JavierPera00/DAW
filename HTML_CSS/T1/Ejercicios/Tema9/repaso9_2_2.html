@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programación de Talleres</title>
+    <style>
+      /* Estilos de la tabla */
+      table {
+        border-spacing: 8px; /* Espaciado entre celdas */
+      }
+
+      /* Estilos para las celdas */
+      th,
+      td {
+        border: 2px solid red; /* Borde oscuro */
+        padding: 12px; /* Espacio interno */
+        text-align: center; /* Centrado de texto */
+      }
+
+      /* Estilos para el cuerpo de la tabla */
+      tbody td {
+        background-color: coral; /* Fondo gris oscuro */
+        color: #fff; /* Texto blanco */
+      }
+
+      /* Estilos para el pie de tabla */
+      tfoot td {
+        color: #333; /* Texto gris oscuro */
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- Encabezado de la tabla -->
+      <thead>
+        <tr>
+          <th colspan="4">Programación de Talleres 2024</th>
+        </tr>
+        <tr>
+          <th>Fecha</th>
+          <th>Tema</th>
+          <th>Instructor</th>
+          <th>Duración (horas)</th>
+        </tr>
+      </thead>
+
+      <!-- Cuerpo de la tabla -->
+      <tbody>
+        <tr>
+          <td>05/03/2024</td>
+          <td>Introducción a HTML</td>
+          <td>Laura Martínez</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>12/03/2024</td>
+          <td>CSS Básico</td>
+          <td>Carlos Gómez</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>19/03/2024</td>
+          <td>JavaScript Intermedio</td>
+          <td>María López</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>26/03/2024</td>
+          <td>Git y Control de Versiones</td>
+          <td>José Ramírez</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+
+      <!-- Pie de la tabla -->
+      <tfoot>
+        <tr>
+          <td colspan="3">Total de Horas</td>
+          <td>15</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
